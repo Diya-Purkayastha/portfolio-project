@@ -223,7 +223,12 @@ footer input[type="text"],footer input[type="email"],footer form textarea{
     display: none;
 }
 @media screen and (max-width:576px) {
-    
+    body{
+        padding: 0px 5px;
+    }
+    .header{
+        padding: 0px 15px;
+    }
     .skill-sets,
      .resume-cols, 
      footer,
@@ -254,7 +259,7 @@ footer input[type="text"],footer input[type="email"],footer form textarea{
         padding: 15px;
     }
     footer{
-        padding: 0;
+        padding: 0px 15px;
     }
     .footer-col-1, .footer-col-2{
         width: 100%;
